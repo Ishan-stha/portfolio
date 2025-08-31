@@ -21,6 +21,7 @@
     <nav class="nav">
         <a href="#home" class="nav-item">Home</a>
         <a href="#about" class="nav-item">About</a>
+        <a href="#certification" class="nav-item">Certification</a>
         <a href="#education" class="nav-item">Education</a>
         <a href="#experience" class="nav-item">Experience</a>
         <a href="#projects" class="nav-item">Projects</a>
@@ -61,12 +62,12 @@
             <div class="card glass-container">
                 <h3>About Me</h3>
                 <p>A technology-driven problem solver with a background in Computer Science and a passion for transforming ideas into impactful solutions. Currently based in Vancouver, Canada.</p>
-                <p>My career belnds technical expertise, business understanding, and strong communication skills, enabling me to work effectively with both data and people.</p>
+                <p>My career blends technical expertise, business understanding, and strong communication skills, enabling me to work effectively with both data and people.</p>
             </div>
             
             <div class="card glass-container">
-                <h3>Data Analyst Me</h3>
-                <p>In my current journey, I focus on working with complex datasets to uncover meaningful patterns and insights. I have experience extracting, cleaning and preparing data, performing exploratory analysis, building statistical and machine learning models, and creating engaging visualization using Python, R, SQl and visualization tools like PowerBI and ggplot2. </p>
+                <h3>Analyst Me</h3>
+                <p>In my current journey, I focus on working with complex datasets to uncover meaningful patterns and insights. I have experience extracting, cleaning and preparing data, performing exploratory analysis, building statistical and machine learning models, and creating engaging visualization using Python, R, SQL and visualization tools like PowerBI and ggplot2. </p>
                 <p>My work is driven by the goal of turning raw information into clear, actionable stories that help guide strategic decisions.</p>
             </div>
             
@@ -108,6 +109,63 @@
             <div class="projects-grid">
                 <!-- Data Analysis Project -->
                 
+                <div class="project-card" data-category="data-analysis visualization">
+                    <!-- <a href="#" target="_blank" class="project-card-link"> -->
+                        <div class="project-content">
+                            <h4 class="project-title">Cancer classification using Machine Learning</h4>
+                            <p class="project-description">The aim of this project is to extract and prepare a clean, analysis-ready dataset for binary classification of cancerous vs non-cancerous lung tissues using gene expression profiling. I have used GDC open portal with CPTAC-3 program to get the gene data for Cancer. The final dataset will contain Raw-Seq read counts from tissue samples, labeled as either 'Normal' or 'Tumor' for machine learning and statistical analysis. Then RFE feature selection method is applied to filter the most important features</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Matplotlib</span>
+                                <span class="tech-tag">Scikit-learn</span>
+                                <span class="tech-tag">Random Forest Classifier</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="cancer/Data_Extraction.html" class="project-link" target="_blank">
+                                    <i class="fas fa-pen"></i>
+                                    Data Extraction
+                                </a>
+                                <a href="cancer/Feature_Modelling.html" class="project-link" target="_blank">
+                                    <i class="fas fa-clipboard"></i>
+                                    RFE
+                                </a>
+                                <a href="https://github.com/Ishan-stha/Cancer-Classification-Using-Machine-Learning" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    View
+                                </a>
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                </div>
+
+                <div class="project-card" data-category="data-analysis visualization">
+                    <!-- <a href="#" target="_blank" class="project-card-link"> -->
+                        <div class="project-content">
+                            <h4 class="project-title">Research on Sepsis with MIMIC-IV</h4>
+                            <p class="project-description">The aim of this project is to Replicate Liu et al. (2022): Weaning Model for Sepsis Patients paperwork. I have used sql query on openly available MIMIC-IV dataset to extract the data and performed some visualization and comaprison to the orginal report.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">SQL</span>
+                                <span class="tech-tag">Big Query</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                            <div class="project-links">
+                                <button class="download-btn" onclick="downloadCertificate('../Sepsis/Sepsis.pdf')">
+                                    <i class="fas fa-clipboard"></i>
+                                    Sepsis Report
+                                </button>
+                                <a href="sepsis/criteria_check.html" class="project-link" target="_blank">
+                                    <i class="fas fa-pen"></i>
+                                    Check criteria
+                                </a>
+                                <a href="https://github.com/Ishan-stha/Research-on-Sepsis-with-Mimic-IV" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    View
+                                </a>
+                            </div>
+                        </div>
+                    <!-- </a> -->
+                </div>
+
                 <div class="project-card" data-category="data-analysis visualization">
                     <!-- <a href="#" target="_blank" class="project-card-link"> -->
                         <div class="project-content">
@@ -421,7 +479,7 @@
             </div>
         </section>
 
-        <section id="education" class="education glass-container">
+        <section id="certification" class="education glass-container">
             <h3>Certifications</h3>
             <div class="education-grid">
                 <div class="education-item">
